@@ -6,9 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.thexd.juegodelavida.MainActivity">
 
-    <LinearLayout
-        android:id="@+id/layoVerti"
+    <GridLayout
+        android:id="@+id/layo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"></LinearLayout>
+        android:columnCount="13"
+        android:rowCount="20">
+
+    </GridLayout>
+
 </android.support.constraint.ConstraintLayout>
